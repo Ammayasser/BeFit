@@ -61,7 +61,6 @@
 - [Flutter SDK](https://flutter.dev/docs/get-started/install) `^3.x` (Dart `^3.11.5`)
 - Android Studio or VS Code with Flutter plugin
 - Android device / emulator running API 26+ (Android 8.0+)
-- A valid `config.json` file with your API keys (see below)
 
 ### 1. Clone the Repository
 
@@ -76,43 +75,13 @@ cd BeFit
 flutter pub get
 ```
 
-### 3. Configure API Keys
-
-This project uses environment-based API keys — **no keys are ever stored in source code**.
-
-Create a `config.json` file in the project root (this file is gitignored):
-
-```json
-{
-  "BEFIT_GEMINI_API_KEY": "your_gemini_api_key_here",
-  "BEFIT_GEMINI_SECONDARY_API_KEY": "your_secondary_gemini_key_here",
-  "BEFIT_GEMINI_TERTIARY_API_KEY": "your_tertiary_gemini_key_here",
-  "BEFIT_USDA_API_KEY": "your_usda_api_key_here",
-  "BEFIT_OPENROUTER_KEY": "your_openrouter_key_here",
-  "BEFIT_SPOONACULAR_API_KEY": "your_spoonacular_key_here"
-}
-```
-
-Get your free API keys:
-- **Gemini**: [Google AI Studio](https://aistudio.google.com/apikey)
-- **USDA**: [FoodData Central](https://fdc.nal.usda.gov/api-guide.html)
-- **Spoonacular**: [Spoonacular Developer](https://spoonacular.com/food-api)
-- **OpenRouter**: [OpenRouter](https://openrouter.ai/)
-
-### 4. Run the App
+### 3. Run the App
 
 ```bash
-# Run with API keys injected from config.json
-flutter run \
-  --dart-define=BEFIT_GEMINI_API_KEY=your_key \
-  --dart-define=BEFIT_GEMINI_SECONDARY_API_KEY=your_key \
-  --dart-define=BEFIT_GEMINI_TERTIARY_API_KEY=your_key \
-  --dart-define=BEFIT_USDA_API_KEY=your_key \
-  --dart-define=BEFIT_OPENROUTER_KEY=your_key \
-  --dart-define=BEFIT_SPOONACULAR_API_KEY=your_key
+flutter run
 ```
 
-> 💡 **Tip**: On VS Code, add these as `--dart-define` entries in your `launch.json` for convenience.
+> 💡 **Tip**: Use an Android emulator or a physical device running Android 8.0+ (API 26+) for the best experience. Some features like Health Connect and camera require a real device.
 
 ---
 
@@ -121,7 +90,7 @@ flutter run \
 ```
 lib/
 ├── core/
-│   ├── constants/       # App-wide constants & API key references
+│   ├── constants/       # App-wide constants
 │   ├── database/        # SQLite & Hive setup
 │   ├── router/          # go_router navigation
 │   ├── services/        # AI, HTTP, notification services
@@ -142,9 +111,10 @@ lib/
 
 ## 🔐 Security & Privacy
 
-- **No API keys are committed** to version control — all secrets live in the local `config.json` (gitignored) and are injected at build time via `--dart-define`.
+- The AI backend is powered by a **custom, proprietary AI model** developed specifically for BeFit — no third-party AI credentials are required from contributors.
 - Health data is processed **on-device only** and never sent to external servers.
 - The app requests only the minimum necessary permissions.
+- All sensitive configuration is gitignored and never committed to version control.
 
 ---
 
