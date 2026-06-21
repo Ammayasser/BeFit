@@ -26,11 +26,10 @@
 | Feature | Description |
 |---|---|
 | 🏋️ **Workout Tracker** | Log exercises with sets, reps, weights, rest timers, and animated muscle maps |
-| 🥗 **Nutrition Logger** | Log meals, scan barcodes, search USDA food database, and track macros |
+| 🥗 **Nutrition Logger** | Log meals, scan barcodes, search food database, and track macros |
 | 🤖 **AI Fitness Coach** | Chat with an AI coach powered by Google Gemini for real-time advice |
 | 📋 **Smart Plans** | AI-generated personalized weekly workout & nutrition plans |
 | 📊 **Progress Analytics** | Charts, streaks, achievements, and weekly summaries |
-| ❤️ **Health Integration** | Sync steps, heart rate, sleep data via Android Health Connect |
 | 🔔 **Smart Notifications** | Workout reminders, hydration alerts, daily progress nudges |
 | 🏆 **Achievements** | Gamified milestone system to keep you motivated |
 | 📷 **Pose Detection** | Real-time ML Kit pose detection for form feedback during workouts |
@@ -46,9 +45,6 @@
 | **State Management** | Riverpod + Provider |
 | **Navigation** | go_router |
 | **Local Database** | SQLite (sqflite) + Hive |
-| **AI / ML** | Google Gemini API, ML Kit Pose Detection |
-| **Nutrition Data** | USDA FoodData API, OpenFoodFacts, Spoonacular |
-| **Health Data** | Android Health Connect (health package) |
 | **Charts** | fl_chart |
 | **Animations** | flutter_animate, Lottie, flutter_staggered_animations |
 | **UI** | Google Fonts, cached_network_image, shimmer, skeletonizer |
