@@ -1,0 +1,130 @@
+{
+  "programs": [
+    {
+      "id": "foundation-builder",
+      "name": "Foundation Builder",
+      "description": "A 4-week program designed for beginners to build a solid foundation of strength and fitness using full-body workouts. Focuses on learning key movement patterns and improving overall conditioning.",
+      "shortDescription": "Perfect start for beginners to build strength and consistency.",
+      "goal": "general_fitness",
+      "difficulty": "beginner",
+      "durationWeeks": 4,
+      "frequencyPerWeek": 3,
+      "avgSessionDurationMin": 45,
+      "equipmentRequired": ["full_gym", "dumbbells", "bodyweight"],
+      "primaryMuscleGroups": ["Full Body"],
+      "categoryTags": ["Beginner", "Full Body", "Foundation"],
+      "coverImageUrl": null,
+      "gradientArgb": "FF111318,FF4ADE80",
+      "isPublic": true,
+      "isAiGenerated": false,
+      "creatorId": null,
+      "creatorName": "BeFit Team",
+      "enrollmentCount": 1250,
+      "rating": 4.8,
+      "ratingCount": 156,
+      "createdAt": "2026-06-14T00:00:00.000Z",
+      "updatedAt": "2026-06-14T00:00:00.000Z",
+      "phases": [
+        {
+          "id": "fb-phase-1",
+          "programId": "foundation-builder",
+          "name": "Foundation Phase",
+          "description": "Learning movement patterns and building work capacity.",
+          "phaseOrder": 1,
+          "startWeek": 1,
+          "endWeek": 4,
+          "phaseType": "accumulation",
+          "targetRepRange": "10-15",
+          "intensityModifier": 1.0,
+          "volumeModifier": 1.0
+        }
+      ],
+      "weeks": [
+        {
+          "id": "fb-week-1",
+          "programId": "foundation-builder",
+          "phaseId": "fb-phase-1",
+          "weekNumber": 1,
+          "isDeload": false,
+          "description": "Introduction to the movements. Focus on form.",
+          "workouts": [
+            {
+              "id": "fb-w1-d1",
+              "weekId": "fb-week-1",
+              "dayOfWeek": 1,
+              "name": "Full Body A",
+              "workoutOrder": 1,
+              "isRestDay": false,
+              "isOptional": false,
+              "restAfterMinutes": 2,
+              "notes": "Focus on controlled tempo: 2-1-2-0.",
+              "estimatedDurationMin": 45,
+              "muscleGroupIcon": "🏋️",
+              "exercises": [
+                {
+                  "id": "fb-w1-d1-e1",
+                  "workoutId": "fb-w1-d1",
+                  "exerciseId": "barbell-squat",
+                  "exerciseName": "Barbell Squat",
+                  "muscleGroup": "Quadriceps",
+                  "gifUrl": null,
+                  "exerciseOrder": 1,
+                  "supersetGroup": null,
+                  "progressionType": "linear",
+                  "targetSets": 3,
+                  "targetRepsMin": 10,
+                  "targetRepsMax": 12,
+                  "targetWeightKg": 40.0,
+                  "weightType": "auto",
+                  "targetRpe": 7.0,
+                  "targetRir": 3,
+                  "restSeconds": 90,
+                  "warmupSets": 1,
+                  "tempo": "2-1-2-0",
+                  "notes": "Keep your chest up and core tight.",
+                  "isOptional": false,
+                  "alternativeExerciseIds": ["dumbbell-goblet-squat"]
+                },
+                {
+                  "id": "fb-w1-d1-e2",
+                  "workoutId": "fb-w1-d1",
+                  "exerciseId": "dumbbell-bench-press",
+                  "exerciseName": "Dumbbell Bench Press",
+                  "muscleGroup": "Chest",
+                  "gifUrl": null,
+                  "exerciseOrder": 2,
+                  "supersetGroup": null,
+                  "progressionType": "linear",
+                  "targetSets": 3,
+                  "targetRepsMin": 10,
+                  "targetRepsMax": 12,
+                  "targetWeightKg": 15.0,
+                  "weightType": "auto",
+                  "targetRpe": 7.0,
+                  "targetRir": 3,
+                  "restSeconds": 90,
+                  "warmupSets": 1,
+                  "tempo": "2-1-2-0",
+                  "notes": "Drive through your feet.",
+                  "isOptional": false,
+                  "alternativeExerciseIds": ["push-up"]
+                }
+              ]
+            },
+            {
+              "id": "fb-w1-d2",
+              "weekId": "fb-week-1",
+              "dayOfWeek": 2,
+              "name": "Rest Day",
+              "workoutOrder": 1,
+              "isRestDay": true,
+              "isOptional": false,
+              "notes": "Active recovery: 20 min walk or light stretching.",
+              "exercises": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

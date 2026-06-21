@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 400">
+  <!-- Triceps - Front View (visible on outer arm) - Professional Fitbod Style -->
+  <!-- Left Tricep (outer arm) -->
+  <path d="M 40,92 C 36,96 32,104 30,114 C 28,124 28,134 30,142 C 31,146 34,148 36,146 C 38,142 40,134 41,124 C 42,114 42,104 40,96 Z" />
+  <!-- Right Tricep (outer arm) -->
+  <path d="M 160,92 C 164,96 168,104 170,114 C 172,124 172,134 170,142 C 169,146 166,148 164,146 C 162,142 160,134 159,124 C 158,114 158,104 160,96 Z" />
+</svg>

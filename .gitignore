@@ -1,0 +1,134 @@
+# ============================================================
+# BeFit Flutter Project - .gitignore
+# ============================================================
+
+# ───────────────────────────────────────────
+# Sensitive / Secret Files
+# ───────────────────────────────────────────
+config.json
+.env
+.env.*
+*.env
+secrets.json
+key.properties
+google-services.json
+GoogleService-Info.plist
+
+# ───────────────────────────────────────────
+# Flutter / Dart / Pub
+# ───────────────────────────────────────────
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+/coverage/
+
+# ───────────────────────────────────────────
+# Android Build Artifacts & Local Config
+# ───────────────────────────────────────────
+android/.gradle/
+android/.kotlin/
+android/captures/
+android/local.properties
+android/GeneratedPluginRegistrant.java
+android/.cxx/
+android/app/debug/
+android/app/profile/
+android/app/release/
+**/*.keystore
+**/*.jks
+
+# ───────────────────────────────────────────
+# iOS Build Artifacts
+# ───────────────────────────────────────────
+ios/.symlinks/
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/Flutter/Generated.xcconfig
+ios/Flutter/ephemeral/
+ios/Flutter/app.flx
+ios/Flutter/app.zip
+ios/Flutter/flutter_export_environment.sh
+ios/Flutter/.last_build_id
+ios/Pods/
+ios/*.xcworkspace
+ios/Runner.xcworkspace/xcuserdata/
+*.mode1v3
+*.mode2v3
+*.moved-aside
+*.pbxuser
+*.perspectivep
+xcuserdata/
+
+# ───────────────────────────────────────────
+# macOS Build Artifacts
+# ───────────────────────────────────────────
+macos/Flutter/GeneratedPluginRegistrant.swift
+macos/Flutter/ephemeral/
+
+# ───────────────────────────────────────────
+# Linux Build Artifacts
+# ───────────────────────────────────────────
+linux/flutter/generated_plugin_registrant.cc
+linux/flutter/generated_plugin_registrant.h
+linux/flutter/generated_plugins.cmake
+linux/flutter/ephemeral/
+
+# ───────────────────────────────────────────
+# Windows Build Artifacts
+# ───────────────────────────────────────────
+windows/flutter/generated_plugin_registrant.cc
+windows/flutter/generated_plugin_registrant.h
+windows/flutter/generated_plugins.cmake
+windows/flutter/ephemeral/
+
+# ───────────────────────────────────────────
+# Web Build Artifacts
+# ───────────────────────────────────────────
+lib/generated_plugin_registrant.dart
+
+# ───────────────────────────────────────────
+# IntelliJ / Android Studio
+# ───────────────────────────────────────────
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# ───────────────────────────────────────────
+# VS Code
+# ───────────────────────────────────────────
+.vscode/
+
+# ───────────────────────────────────────────
+# Dart Code Generation
+# ───────────────────────────────────────────
+*.g.dart
+*.freezed.dart
+*.gr.dart
+
+# ───────────────────────────────────────────
+# Symbolication / Obfuscation
+# ───────────────────────────────────────────
+app.*.symbols
+app.*.map.json
+
+# ───────────────────────────────────────────
+# OS Files
+# ───────────────────────────────────────────
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.log
+*.pyc
+
+# ───────────────────────────────────────────
+# Uploads / Temporary Files
+# ───────────────────────────────────────────
+.uploads/
+*.tmp

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 400">
+  <!-- Abductors - Front View - Professional Fitbod Style -->
+  <!-- Left Abductor (outer thigh - Tensor Fasciae Latae + Gluteus Medius front) -->
+  <path d="M 68,186 C 64,190 60,200 58,214 C 56,228 56,244 58,258 C 60,268 62,274 66,276 C 68,278 70,274 72,268 C 74,258 74,244 73,228 C 72,214 70,202 68,194 Z" />
+  <!-- Right Abductor -->
+  <path d="M 132,186 C 136,190 140,200 142,214 C 144,228 144,244 142,258 C 140,268 138,274 134,276 C 132,278 130,274 128,268 C 126,258 126,244 127,228 C 128,214 130,202 132,194 Z" />
+</svg>

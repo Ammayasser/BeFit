@@ -1,0 +1,8 @@
+{
+  "BEFIT_GEMINI_API_KEY": "your_gemini_primary_api_key_here",
+  "BEFIT_GEMINI_SECONDARY_API_KEY": "your_gemini_secondary_api_key_here",
+  "BEFIT_GEMINI_TERTIARY_API_KEY": "your_gemini_tertiary_api_key_here",
+  "BEFIT_USDA_API_KEY": "your_usda_fooddata_api_key_here",
+  "BEFIT_OPENROUTER_KEY": "your_openrouter_api_key_here",
+  "BEFIT_SPOONACULAR_API_KEY": "your_spoonacular_api_key_here"
+}
