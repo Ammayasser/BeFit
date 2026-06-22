@@ -137,5 +137,5 @@ This project is licensed under the **MIT License** — see the [LICENSE](LICENSE
 ---
 
 <div align="center">
-Made with ❤️ and Flutter &nbsp;|&nbsp; &copy; 2026 BeFit
+&nbsp;|&nbsp; &copy; 2026 BeFit
 </div>
