@@ -81,7 +81,7 @@ flutter pub get
 flutter run
 ```
 
-> 💡 **Tip**: Use an Android emulator or a physical device running Android 8.0+ (API 26+) for the best experience. Some features like Health Connect and camera require a real device.
+> 💡 **Tip**: Use an Android emulator or a physical device running Android 8.0+ (API 26+) for the best experience. 
 
 ---
 
